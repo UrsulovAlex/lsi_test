@@ -1,0 +1,23 @@
+::ng-deep {
+    .p-datatable.p-datatable-customers .p-paginator {
+        justify-content: flex-end;
+    }
+}
+.toolbar {
+    background: var(--surface-e);
+    padding-bottom: 8px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e4e4e4;
+
+    &__bottom {
+        border: 0;
+        margin-bottom: 0;
+    }
+}
+.p-button-secondary {
+    border-radius: 0;
+    border: 0 !important;
+}
